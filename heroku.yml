@@ -1,0 +1,7 @@
+
+
+build:
+  docker:
+    shiny: Dockerfile
+
+run: Rscript -e "library(shiny); runApp('/srv/shiny-server/app.R')"
